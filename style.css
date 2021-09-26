@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wholeBody {
+  width: 100%;
+  height: 50vh;
+}
+
+.clock {
+  display: flex;
+  width: 170px;
+  height: 170px;
+  padding: 20px;
+  color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  justify-content: center;
+  align-items: center;
+}
+
+.clock .ammPm {
+  padding-left: 10px;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 750px) {
+  #wholeBody {
+    height: 44vh;
+  }
+   
+}
